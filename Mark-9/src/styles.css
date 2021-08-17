@@ -1,0 +1,54 @@
+body {
+  font-size: 150%;
+  margin: 5rem 3rem;
+  background: url("bg1.jpg") fixed;
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+.header {
+  background: rgba(247, 247, 247, 0.541);
+}
+
+ul li {
+  font-size: 100%;
+  display: block;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  list-style-type: none;
+  border: 2px black solid;
+}
+ul li:hover {
+  background: linear-gradient(to top, rgb(167, 41, 41), white);
+}
+button {
+  background: linear-gradient(to right, rgb(167, 41, 41), white);
+  font-size: 100%;
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 20%;
+}
+button:hover {
+  background: linear-gradient(to right, white, rgb(167, 41, 41));
+}
+
+.bg {
+  border-radius: 3rem;
+  width: 60%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.815);
+  padding: 1rem;
+  padding-bottom: 5rem;
+}
+
+.title {
+  font-size: 190%;
+}
